@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb_ON/OFF</title>
+    <link rel="stylesheet" href="bulb.css">
+    <script src="bulb.js"></script>
+</head>
+<body>
+    <div class="main">
+    <div id="twobutton">
+        <h1>1</h1>
+        <img id="firstimg" src="https://www.w3schools.com/js/pic_bulboff.gif" >
+        <button onclick="bulbon()">ON</button><button onclick="bulboff()">OFF</button>
+    </div>
+    <div id="onebutton">
+        <h1>2</h1>
+        <img id="secondimg" src="https://www.w3schools.com/js/pic_bulboff.gif" >
+        <button onclick="bulbonoff()">ON/OFF</button>
+    </div>
+    <div id="togglebutton">
+        <h1>3</h1>
+        <img id="thirdimg" src="https://www.w3schools.com/js/pic_bulboff.gif" >
+        <label class="switch">
+            <input onclick="bulbonoff1()" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    </div>
+</body>
+</html>
