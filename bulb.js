@@ -17,6 +17,7 @@ function bulbonoff(){
 }
 var c=false
 function bulbonoff1(){
+    
     if(c==false){
         document.getElementById('thirdimg').src="https://www.w3schools.com/js/pic_bulbon.gif"
         c=true 
