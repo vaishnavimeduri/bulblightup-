@@ -74,16 +74,20 @@
       border:2px solid black;
       border-radius: 20px;
       padding:30px;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       background-color:palevioletred;
+      height:150px;
+      width:30%;
   }
   #twobutton{
     display:flex;
     border:2px solid black;
     border-radius: 20px;
       padding:30px;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       background-color:palevioletred;
+      height:150px;
+      width:30%;
  
 }
 #togglebutton{
@@ -91,8 +95,10 @@
     border:2px solid black;
     border-radius: 20px;
     padding:30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color:palevioletred;
+    height:150px;
+    width:30%;
 }
 button{
     height: 50px;
